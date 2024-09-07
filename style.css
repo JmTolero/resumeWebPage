@@ -1,0 +1,258 @@
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+header{
+  background-color: #F1DABF;
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+}
+
+/*same font style*/
+.webdev,.description,.major-title,.social-title,.skill-title{
+  font-family: 'roboto mono';
+}
+/* --------------------------------------------------------------------- */
+
+.container{
+  padding-top: 80px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+.bsit3a{
+  display:flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.contact{
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "red rose";
+}
+.number,.gmail{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.numIcon img{
+  width: 40px;
+}
+.gmIcon{
+  width: 40px;
+  margin-right:15px;
+}
+.gmailAcc{
+  color: black;
+}
+
+.header-right-section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bsit3a{
+  font-family:rammetto one;
+  font-size: 44px;
+}
+
+/*left section*/
+
+.left-section{
+  background-color: FFFBFF;
+  display: block;
+}
+.joemar{
+  margin-bottom: 0;
+  font-size: 150px;
+  font-family: "holtwood one sc";
+  color: #92817A;
+  -webkit-text-stroke: black 3px;
+  margin-left: 80px;
+  display:inline-block;
+}
+
+.webdev{
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 80px;
+}
+
+.description{
+  width: 450px;
+  font-size: 20px;
+  margin-left: 80px;
+  font-weight: 500;
+  display: block;
+}
+
+.personal-info-button{
+  margin-left: 80px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 124px;
+  border-radius: 10px;
+  background-color: #F1DABF;
+  border: none;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+.skills-box{
+  width: 400px;
+  height: 250px;
+  background-color: #F1DABF;
+  margin-left: 80px;
+  margin-top: 40px;
+  border-radius: 25px;
+}
+
+.individual-skill{
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.prog-lang{
+  margin-left: 45px;
+}
+.rate{
+  margin-right: 40px;
+}
+
+
+/*Right section ---------------------------------------------------------*/
+
+.right-section{
+  margin-right: 80px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.major-box{
+  width: 500px;
+  height: 300px;
+  background-color: #F1DABF;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 0;
+}
+
+.major-title,.skill-title{ /*same font-style*/
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+}
+.year-level-subject{
+  font-family: 'red rose';
+}
+
+.yearlvl{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.csslogo{
+  width: 50px;
+  margin-right: 30px;
+}
+
+.social-acc{
+  width: 380px;
+  height: 300px;
+  background-color: #F1DABF;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+.social-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.social-box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons,.social-names{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-names{
+  row-gap: 33px;
+  font-family: 'red rose';
+  padding-right: 40px;
+}
+.social-icons{
+  row-gap: 10px;
+}
+.tolero{
+  margin-top: -20px;
+  padding-bottom: 0;
+  font-size: 150px;
+  font-family: "holtwood one sc";
+  color: #92817A;
+  -webkit-text-stroke: black 3px;
+  margin-left: 80px;
+  display:inline-block;
+  z-index: 1;
+}
+
+/* Picture center */
+
+.picture-box{
+  width: 700px;
+  height: auto;
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 600px;
+  top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.joemarpic{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div .joemarpic{
+  width: auto;
+  height: auto;
+  filter:drop-shadow( 0 0 15px rgba(0, 0, 0, 0.8));
+}
