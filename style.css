@@ -6,7 +6,7 @@ body{
 header{
   background-color: #F1DABF;
   width: 100%;
-  height: 100px;
+  height: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: fixed;
@@ -47,7 +47,7 @@ header{
   align-items: center;
   justify-content: center;
 }
-.numIcon img{
+.numIcon{
   width: 40px;
 }
 .gmIcon{
@@ -77,7 +77,7 @@ header{
 }
 .joemar{
   margin-bottom: 0;
-  font-size: 150px;
+  font-size: 8vw;
   font-family: "holtwood one sc";
   color: #92817A;
   -webkit-text-stroke: black 3px;
@@ -87,13 +87,13 @@ header{
 
 .webdev{
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2vw;
   margin-left: 80px;
 }
 
 .description{
   width: 450px;
-  font-size: 20px;
+  font-size: 1vw;
   margin-left: 80px;
   font-weight: 500;
   display: block;
@@ -103,21 +103,23 @@ header{
   margin-left: 80px;
   margin-top: 20px;
   padding: 10px;
-  width: 124px;
+  width: 7vw;
   border-radius: 10px;
   background-color: #F1DABF;
   border: none;
   font-family: 'roboto';
   font-weight: bold;
+  font-size: .9vw;
 }
 
 .skills-box{
-  width: 400px;
-  height: 250px;
+  width: 25vw;
+  height: 14vw;
   background-color: #F1DABF;
   margin-left: 80px;
   margin-top: 40px;
   border-radius: 25px;
+  font-size: 1vw;
 }
 
 .individual-skill{
@@ -147,18 +149,17 @@ header{
   align-items: end;
 }
 .major-box{
-  width: 500px;
-  height: 300px;
+  width: 28vw;
+  height: 17vw;
   background-color: #F1DABF;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-top: 0;
 }
 
 .major-title,.skill-title{ /*same font-style*/
-  font-size: 20px;
+  font-size: 1.3vw;
   text-align: center;
   padding: 20px 0;
   font-weight: bold;
@@ -171,9 +172,9 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 15px;
+  font-size: 1vw;
   margin-left: 30px;
-  margin-bottom: 10px;
+
 }
 
 .csslogo{
@@ -182,8 +183,8 @@ header{
 }
 
 .social-acc{
-  width: 380px;
-  height: 300px;
+  width: 22vw;
+  height: 13vw;
   background-color: #F1DABF;
   border-radius: 25px;
   margin-top: 30px;
@@ -193,36 +194,40 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 1.4vw;
   font-weight: bold;
   padding-top: 20px;
 }
 
 .social-box{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.social-icons,.social-names{
+  font-family: roboto;
+  padding-top: 20px;
+  /* height: 0% */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
+  /* padding-bottom: 20px; */
+  
+}
+.icon-and-name{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  font-size: 1vw;
 }
-.social-names{
-  row-gap: 33px;
-  font-family: 'red rose';
-  padding-right: 40px;
+.icon{
+  margin-right: 30px;
+  margin-left: 20%;
 }
-.social-icons{
-  row-gap: 10px;
+.acc-name{
+  margin-right: 30%;
 }
+
+
 .tolero{
   margin-top: -20px;
   padding-bottom: 0;
-  font-size: 150px;
+  font-size: 8vw;
   font-family: "holtwood one sc";
   color: #92817A;
   -webkit-text-stroke: black 3px;
@@ -252,7 +257,13 @@ header{
   align-items: center;
 }
 div .joemarpic{
-  width: auto;
+  width:100% ;
   height: auto;
   filter:drop-shadow( 0 0 15px rgba(0, 0, 0, 0.8));
+}
+.all{
+  width: 100%;
+}
+.joemar-picture{
+  width: 100%;
 }
