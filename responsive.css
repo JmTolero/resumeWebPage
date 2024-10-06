@@ -1,64 +1,54 @@
-@media screen and (max-width: 1280px) {
+@media only screen and ( max-width: 768px) and (max-width: 1024px) {
+  /* header */
+  .bsit3a{
+    font-size: 30px;
+    padding-left: 10%;
+  }
+
   .contact{
-    font-size: 15px;
+    font-size: .7rem;
   }
-  .numIcon,.gmIcon{
-    width: 30px;
+
+  .picture-box,.tolero{
+   display: none; 
   }
+
   .joemar{
-    font-size: 100px;
-    margin-left: 40px;
+    font-size: 5vw;
+  -webkit-text-stroke: black 2px;
   }
-  .webdev{
-    font-size: 24px;
-    margin-left: 40px;
+  
+ .left-section{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  } 
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid black;
   }
+
+  .skills-box{
+    width: 40%;
+    border: 1px solid black;
+    margin: 0;
+  }
+
+  .joemar,.webdev,.description,.personal-info-button,.skills-box
+  {
+    margin: 0;
+    margin-left: 3%;
+  }
+
   .description{
-    font-size: 15px;
-    margin-left: 40px;
+    font-size: .7rem;
+    padding-bottom: 2%;
+    padding-top: 2%;
   }
   .personal-info-button{
-    width: 94px;
-    font-size: 12px;
-    margin-left: 40px;
-  }
-  div .joemarpic{
-    width: 500px;
-  }
-  .picture-box{
-    left: 310px;
-    top: 300px;
-    bottom: 0;
-  }
-  .tolero{
-    font-size: 100px;
-  }
-  .circleDraw
-  {
-    width: 400px;
-  }
-  .major-box{
-    width: 350px;
-  }
-  .social-acc{
-    width: 280px;
-  }
-  .skills-box{
-    width: 380px;
-    margin-top: 80px;
-    margin-left: 40px;
-}
-  .individual-skill{
-    justify-content: end;
-  }
-  .prog-lang{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .right-section{
-    margin-right: 40px;
-  }
-  .major-title,.social-title{
-    font-size: 15px;
+    margin-bottom:5%;
   }
 }

@@ -6,10 +6,11 @@ body{
 header{
   background-color: #F1DABF;
   width: 100%;
-  height: 80px;
+  height: 12%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: fixed;
+  z-index: 1;
 }
 
 /*same font style*/
@@ -25,7 +26,7 @@ header{
   height: 100%;
   flex-direction: row;
   justify-content: space-between;
-  align-items: top;
+  position: relative;
 }
 .bsit3a{
   display:flex;
@@ -36,7 +37,7 @@ header{
 
 .contact{
   width: 100%;
-  font-size: 20px;
+  font-size: 1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -65,7 +66,7 @@ header{
 }
 
 .bsit3a{
-  font-family:rammetto one;
+  font-family:"rammetto one";
   font-size: 44px;
 }
 
@@ -81,29 +82,29 @@ header{
   font-family: "holtwood one sc";
   color: #92817A;
   -webkit-text-stroke: black 3px;
-  margin-left: 80px;
+  margin-left: 10%;
   display:inline-block;
 }
 
 .webdev{
   font-weight: bold;
   font-size: 2vw;
-  margin-left: 80px;
+  margin-left: 10%;
 }
 
 .description{
-  width: 450px;
+  width: 50%;
   font-size: 1vw;
-  margin-left: 80px;
+  margin-left: 10%;
   font-weight: 500;
   display: block;
 }
 
 .personal-info-button{
-  margin-left: 80px;
+  margin-left: 10%;
   margin-top: 20px;
   padding: 10px;
-  width: 7vw;
+  width: 9vw;
   border-radius: 10px;
   background-color: #F1DABF;
   border: none;
@@ -113,11 +114,11 @@ header{
 }
 
 .skills-box{
-  width: 25vw;
+  width: 50%;
   height: 14vw;
   background-color: #F1DABF;
-  margin-left: 80px;
-  margin-top: 40px;
+  margin-left: 10%;
+  margin-top: 8%;
   border-radius: 25px;
   font-size: 1vw;
 }
@@ -128,63 +129,78 @@ header{
   flex-direction: row;
   justify-content:space-between;
   align-items: center;
-  margin-bottom: 10px;
-}
-.prog-lang{
-  margin-left: 45px;
-}
-.rate{
-  margin-right: 40px;
+  margin-bottom: 2%;
 }
 
+.skill-rate{
+  width: 100%;
+}
+
+.prog-lang{
+  margin-left: 10%;
+}
+
+.rate{
+  margin-right: 12%;
+  padding-left: 5%;
+}
 
 /*Right section ---------------------------------------------------------*/
 
 .right-section{
-  margin-right: 80px;
+  margin-right: 4%;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: end;
 }
+
 .major-box{
   width: 28vw;
-  height: 17vw;
+  height: 40vh;
   background-color: #F1DABF;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .major-title,.skill-title{ /*same font-style*/
   font-size: 1.3vw;
   text-align: center;
-  padding: 20px 0;
+  padding-top: 5%;
   font-weight: bold;
+}
+.yrlevel,.language,.language-pic{
+ height: 10dvh;
+ display: flex;
+ align-items: center;
 }
 .year-level-subject{
   font-family: 'red rose';
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-.yearlvl{
+.yrbox1{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   font-size: 1vw;
-  margin-left: 30px;
-
+  padding-left: 10px;
+}
+.language-pic img{
+  width:45px;
+  padding-right: 20px;
 }
 
-.csslogo{
-  width: 50px;
-  margin-right: 30px;
-}
 
 .social-acc{
   width: 22vw;
-  height: 13vw;
+  height: 34vh;
   background-color: #F1DABF;
   border-radius: 25px;
   margin-top: 30px;
@@ -208,20 +224,22 @@ header{
   justify-content: start;
   /* padding-bottom: 20px; */
 }
+
 .icon-and-name{
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: .7vw;
 }
+
 .icon{
   margin-right: 5%;
   margin-left:20%;
 }
+
 .acc-name{
   margin-right: 30%;
 }
-
 
 .tolero{
   margin-top: -20px;
@@ -243,11 +261,13 @@ header{
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0%;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -1;
 }
+
 .picture-box img{
   max-width: 40%;
 }
