@@ -1,4 +1,7 @@
-@media only screen and ( max-width: 768px){
+
+/* tablet display */
+
+@media only screen and ( max-width: 768px ){
   /* header */
   .bsit3a{
     font-size: 30px;
@@ -119,7 +122,15 @@
     margin-top: -50px;
     margin-left: -52px;
   }
-  
+
+
+
+  .icon:hover{
+    background-color: #92817A;
+    transition: .2s ease-in;
+    border-radius: 5px;
+}
+
   .social-box{
     justify-content: space-evenly;
   }
@@ -133,5 +144,39 @@
   }
 
   
+
+}
+
+/* smartphone display */
+
+@media only screen and ( max-width: 600px){
+
+  header .contact{
+    display: none;
+  }
+
+  .Tolero{
+    display: none;
+  }
+
+  .picture-box{
+    display: none;
+  }
+
+  .joemar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .webdev{
+    padding-top: 300px;
+  }
+
+  .description{
+    width: 100%;
+  }
+
+
 
 }
