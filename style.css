@@ -94,7 +94,7 @@ header{
 
 .description{
   width: 50%;
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin-left: 10%;
   font-weight: 500;
   display: block;
@@ -225,6 +225,10 @@ header{
   /* padding-bottom: 20px; */
 }
 
+.icon-and-name:hover{
+  background-color: #92817A;
+}
+
 .icon-and-name{
   display: flex;
   justify-content: space-between;
@@ -270,4 +274,8 @@ header{
 
 .picture-box img{
   max-width: 40%;
+}
+
+.Tolero{
+  display: none;
 }
