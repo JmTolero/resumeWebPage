@@ -43,6 +43,7 @@
   flex-direction: column;
   justify-content: center;
   padding-right: 5%;
+  position: relative;
   } 
 
   .container{
@@ -143,6 +144,17 @@
     display:unset;
   }
 
+  .circle{
+    width: 30vh;
+    height: 30vh;
+    top: 15%;
+    right: 10%;
+    position: absolute;
+  }
+
+  .tolero3{
+    display: none;
+  }
   
 
 }
@@ -150,6 +162,9 @@
 /* smartphone display */
 
 @media only screen and ( max-width: 600px){
+  .container{
+    position: relative;
+  }
 
   header .contact{
     display: none;
@@ -159,9 +174,13 @@
     display: none;
   }
 
-  .picture-box{
-    display: none;
-  }
+  .picture-box img{
+    left: 50%;
+    right: 50%;
+    top: 36vh;
+    transform: translate(-50%,-50%);
+    min-width: 200px;
+}
 
   .joemar{
     display: flex;
@@ -176,7 +195,35 @@
   .description{
     width: 100%;
   }
+  
+  .social-acc,.major-box,.skills-box
+  {
+    margin: 0;
+  }
 
+  .left-section{
+    border: 1px solid black;
+    
+  }
 
+  .circle{
+    left: 50%;
+    right: 50%;
+    top: 36vh;
+    transform: translate(-50%,-50%);
+    min-width: 200px;
+  }
 
+  .tolero3{
+    display: unset;
+    font-size: 3rem;
+    font-family: "holtwood one sc";
+    color: #92817A;
+    -webkit-text-stroke: black 2px;
+    z-index: 1;
+    position: absolute;
+    top: 280px;
+}
+
+  
 }

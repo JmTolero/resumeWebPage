@@ -225,9 +225,7 @@ header{
   /* padding-bottom: 20px; */
 }
 
-.icon-and-name:hover{
-  background-color: #92817A;
-}
+
 
 .icon-and-name{
   display: flex;
@@ -239,7 +237,8 @@ header{
 .icon{
   margin-right: 5%;
   margin-left:20%;
-}
+  border-radius: 5px;
+} 
 
 .acc-name{
   margin-right: 30%;
@@ -257,6 +256,9 @@ header{
   z-index: 1;
 }
 
+.tolero3{
+  display: none;
+}
 /* Picture center */
 
 .picture-box
@@ -279,3 +281,13 @@ header{
 .Tolero{
   display: none;
 }
+
+.circle{
+  width:50dvh;
+  height:50dvh;
+  border-radius: 50% ;
+  background-color: #92817A;
+  position: absolute;
+  z-index: -1;
+}
+
