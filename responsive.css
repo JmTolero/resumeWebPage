@@ -230,7 +230,7 @@
   .skills-box
   {
     width: 100%;
-    height: 40vh;
+    height: 33vh;
     align-items: center;
     align-self: center;
  
@@ -252,8 +252,9 @@
   }
 
   .personal-info-button{
-    width: 24vw; 
+    width: 25vw; 
     font-size: 3vw;
+    margin-bottom: 30px;
   }
 
   .right-section{
@@ -264,12 +265,23 @@
 
   .major-box  {
     width: 100%;
+    margin-bottom: 40px;
   }
   .major-title{
-  font-size: 4vw;
+  font-size: 5vw;
   }
   .yrbox1{
-  font-size: 3vw;
+  font-size: 4vw;
+  }
+
+  .social-acc{
+    width: 70%;
+    height: 11vh;
+    margin-bottom: 40px;
+  }
+
+  .social-title{
+    display: none;
   }
   
 
